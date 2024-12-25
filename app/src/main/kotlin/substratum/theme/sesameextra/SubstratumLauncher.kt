@@ -1,6 +1,6 @@
 @file:Suppress("ConstantConditionIf")
 
-package substratum.theme.template
+package substratum.theme.sesameextra
 
 import android.app.Activity
 import android.content.Context
@@ -13,14 +13,14 @@ import android.widget.Toast
 import com.github.javiersantos.piracychecker.*
 import com.github.javiersantos.piracychecker.enums.*
 import com.github.javiersantos.piracychecker.utils.apkSignature
-import substratum.theme.template.AdvancedConstants.ORGANIZATION_THEME_SYSTEMS
-import substratum.theme.template.AdvancedConstants.OTHER_THEME_SYSTEMS
-import substratum.theme.template.AdvancedConstants.SHOW_DIALOG_REPEATEDLY
-import substratum.theme.template.AdvancedConstants.SHOW_LAUNCH_DIALOG
-import substratum.theme.template.ThemeFunctions.checkApprovedSignature
-import substratum.theme.template.ThemeFunctions.getSelfSignature
-import substratum.theme.template.ThemeFunctions.getSelfVerifiedPirateTools
-import substratum.theme.template.ThemeFunctions.isCallingPackageAllowed
+import substratum.theme.sesameextra.AdvancedConstants.ORGANIZATION_THEME_SYSTEMS
+import substratum.theme.sesameextra.AdvancedConstants.OTHER_THEME_SYSTEMS
+import substratum.theme.sesameextra.AdvancedConstants.SHOW_DIALOG_REPEATEDLY
+import substratum.theme.sesameextra.AdvancedConstants.SHOW_LAUNCH_DIALOG
+import substratum.theme.sesameextra.ThemeFunctions.checkApprovedSignature
+import substratum.theme.sesameextra.ThemeFunctions.getSelfSignature
+import substratum.theme.sesameextra.ThemeFunctions.getSelfVerifiedPirateTools
+import substratum.theme.sesameextra.ThemeFunctions.isCallingPackageAllowed
 
 /**
  * NOTE TO THEMERS

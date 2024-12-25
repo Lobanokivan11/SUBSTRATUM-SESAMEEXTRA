@@ -33,8 +33,8 @@ android {
     defaultConfig {
         // If you're planning to change up the package name, ensure you have read the readme
         // thoroughly!
-        applicationId = "substratum.theme.template"
-        namespace = "substratum.theme.template"
+        applicationId = "substratum.theme.sesameextra"
+        namespace = "substratum.theme.sesameextra"
         // We are only supporting Nougat and above, all new changes will incorporate Nougat changes
         // to the substratum repo rather than anything lower. Keep targetSdkVersion the same.
         minSdk = 24
@@ -70,6 +70,13 @@ android {
             buildConfigField("String", "BASE_64_LICENSE_KEY", "\"$BASE_64_LICENSE_KEY\"")
             buildConfigField("String", "APK_SIGNATURE_PRODUCTION", "\"$APK_SIGNATURE_PRODUCTION\"")
         }
+    }
+    compileOptions {
+        sourceCompatibility = JavaVersion.VERSION_17
+        targetCompatibility = JavaVersion.VERSION_17
+    }
+    kotlin {
+            jvmToolchain(17)
     }
     sourceSets {
         named("main") {

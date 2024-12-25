@@ -1,4 +1,4 @@
-package substratum.theme.template
+package substratum.theme.sesameextra
 
 object AdvancedConstants {
 
